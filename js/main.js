@@ -83,7 +83,7 @@ const initScene = async () => {
 
 	const markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerGroup, {
 		type : "pattern",
-		patternUrl : "assets/pattern-marker.patt",
+		patternUrl : "assets/marker.patt",
 	});
 
 	const smoothedGroup = new THREE.Group();
