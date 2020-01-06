@@ -114,7 +114,7 @@ const loadModel = async () => {
 	//vrmファイルの読み込み
 	const vrmLoader = new THREE.VRMLoader();
 	const result = await new Promise(resolve => {
-		vrmLoader.load("assets/VRoid.vrm", (vrm) => {
+		vrmLoader.load("assets/西条_那由多.vrm", (vrm) => {
 			vrm.scene.position.x = posX;
 			vrm.scene.position.y = posY;
 			vrm.scene.position.z = posZ;
